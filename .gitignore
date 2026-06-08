@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# Environment
+.env
+
+# Vector store (persisted data — do not commit)
+chroma_db/
+
+# Uploaded documents
+data/
+
+# Misc
+.DS_Store
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
